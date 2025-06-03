@@ -1,0 +1,31 @@
+[2025-06-02 15:00:10.869 -07:00 ERR] Failed to initialize Cosmos DB {}
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:8081)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.Cosmos.Routing.GlobalEndpointManager.GetAccountPropertiesHelper.GetOnlyGlobalEndpointAsync()
+   at Microsoft.Azure.Cosmos.Routing.GlobalEndpointManager.GetAccountPropertiesHelper.GetAccountPropertiesAsync()
+   at Microsoft.Azure.Cosmos.Routing.GlobalEndpointManager.GetDatabaseAccountFromAnyLocationsAsync(Uri defaultEndpoint, IList`1 locations, IList`1 accountInitializationCustomEndpoints, Func`2 getDatabaseAccountFn, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.GatewayAccountReader.InitializeReaderAsync()
+   at Microsoft.Azure.Cosmos.CosmosAccountServiceConfiguration.InitializeAsync()
+   at Microsoft.Azure.Cosmos.DocumentClient.InitializeGatewayConfigurationReaderAsync()
+   at Microsoft.Azure.Cosmos.DocumentClient.GetInitializationTaskAsync(IStoreClientFactory storeClientFactory)
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.ExecuteRetryAsync[TParam,TPolicy](Func`1 callbackMethod, Func`3 callbackMethodWithParam, Func`2 callbackMethodWithPolicy, TParam param, IRetryPolicy retryPolicy, IRetryPolicy`1 retryPolicyWithArg, Func`1 inBackoffAlternateCallbackMethod, Func`2 inBackoffAlternateCallbackMethodWithPolicy, TimeSpan minBackoffForInBackoffCallback, CancellationToken cancellationToken, Action`1 preRetryCallback)
+   at Microsoft.Azure.Documents.ShouldRetryResult.ThrowIfDoneTrying(ExceptionDispatchInfo capturedException)
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.ExecuteRetryAsync[TParam,TPolicy](Func`1 callbackMethod, Func`3 callbackMethodWithParam, Func`2 callbackMethodWithPolicy, TParam param, IRetryPolicy retryPolicy, IRetryPolicy`1 retryPolicyWithArg, Func`1 inBackoffAlternateCallbackMethod, Func`2 inBackoffAlternateCallbackMethodWithPolicy, TimeSpan minBackoffForInBackoffCallback, CancellationToken cancellationToken, Action`1 preRetryCallback)
+   at Microsoft.Azure.Documents.BackoffRetryUtility`1.ExecuteRetryAsync[TParam,TPolicy](Func`1 callbackMethod, Func`3 callbackMethodWithParam, Func`2 callbackMethodWithPolicy, TParam param, IRetryPolicy retryPolicy, IRetryPolicy`1 retryPolicyWithArg, Func`1 inBackoffAlternateCallbackMethod, Func`2 inBackoffAlternateCallbackMethodWithPolicy, TimeSpan minBackoffForInBackoffCallback, CancellationToken cancellationToken, Action`1 preRetryCallback)
+   at Microsoft.Azure.Cosmos.AsyncCacheNonBlocking`2.GetAsync(TKey key, Func`2 singleValueInitFunc, Func`2 forceRefresh)
+   at Microsoft.Azure.Cosmos.AsyncCacheNonBlocking`2.GetAsync(TKey key, Func`2 singleValueInitFunc, Func`2 forceRefresh)
+   at Microsoft.Azure.Cosmos.DocumentClient.EnsureValidClientAsync(ITrace trace)
+   at Microsoft.Azure.Cosmos.Handlers.RequestInvokerHandler.EnsureValidClientAsync(RequestMessage request, ITrace trace)
+   at Microsoft.Azure.Cosmos.Handlers.RequestInvokerHandler.SendAsync(RequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.Handlers.RequestInvokerHandler.SendAsync(String resourceUriString, ResourceType resourceType, OperationType operationType, RequestOptions requestOptions, ContainerInternal cosmosContainerCore, FeedRange feedRange, Stream streamPayload, Action`1 requestEnricher, ITrace trace, CancellationToken cancellationToken)
+   at Microsoft.Azure.Cosmos.CosmosClient.<>c__DisplayClass54_0.<<CreateDatabaseIfNotExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.Azure.Cosmos.ClientContextCore.RunWithDiagnosticsHelperAsync[TResult](String containerName, String databaseName, OperationType operationType, ITrace trace, Func`2 task, Nullable`1 openTelemetry, RequestOptions requestOptions, Nullable`1 resourceType)
+   at Microsoft.Azure.Cosmos.ClientContextCore.OperationHelperWithRootTraceAsync[TResult](String operationName, String containerName, String databaseName, OperationType operationType, RequestOptions requestOptions, Func`2 task, Nullable`1 openTelemetry, TraceComponent traceComponent, TraceLevel traceLevel, Nullable`1 resourceType)
+   at Program.<<Main>$>g__InitializeCosmosDbAsync|0_3(IServiceProvider services) in F:\MB\IoTSensorDataProcessor.Api\Program.cs:line 97
+[2025-06-02 15:00:10.911 -07:00 INF] Sensor Data Background Service started {"SourceContext":"IoTSensorDataProcessor.Infrastructure.Services.SensorDataBackgroundService"}

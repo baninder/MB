@@ -1,0 +1,17 @@
+F:\MB\IoTSensorDataProcessor.Core\obj\Debug\net9.0\IoTSensorDataProcessor.Core.csproj.AssemblyReference.cache
+F:\MB\IoTSensorDataProcessor.Core\bin\Debug\net9.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+F:\MB\IoTSensorDataProcessor.Core\bin\Debug\net9.0\Cosmos.CRTCompat.dll
+F:\MB\IoTSensorDataProcessor.Core\bin\Debug\net9.0\msvcp140.dll
+F:\MB\IoTSensorDataProcessor.Core\bin\Debug\net9.0\vcruntime140.dll
+F:\MB\IoTSensorDataProcessor.Core\bin\Debug\net9.0\vcruntime140_1.dll
+F:\MB\IoTSensorDataProcessor.Core\bin\Debug\net9.0\IoTSensorDataProcessor.Core.deps.json
+F:\MB\IoTSensorDataProcessor.Core\bin\Debug\net9.0\IoTSensorDataProcessor.Core.dll
+F:\MB\IoTSensorDataProcessor.Core\bin\Debug\net9.0\IoTSensorDataProcessor.Core.pdb
+F:\MB\IoTSensorDataProcessor.Core\obj\Debug\net9.0\IoTSensorDataProcessor.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\MB\IoTSensorDataProcessor.Core\obj\Debug\net9.0\IoTSensorDataProcessor.Core.AssemblyInfoInputs.cache
+F:\MB\IoTSensorDataProcessor.Core\obj\Debug\net9.0\IoTSensorDataProcessor.Core.AssemblyInfo.cs
+F:\MB\IoTSensorDataProcessor.Core\obj\Debug\net9.0\IoTSensorDataProcessor.Core.csproj.CoreCompileInputs.cache
+F:\MB\IoTSensorDataProcessor.Core\obj\Debug\net9.0\IoTSensorDataProcessor.Core.dll
+F:\MB\IoTSensorDataProcessor.Core\obj\Debug\net9.0\refint\IoTSensorDataProcessor.Core.dll
+F:\MB\IoTSensorDataProcessor.Core\obj\Debug\net9.0\IoTSensorDataProcessor.Core.pdb
+F:\MB\IoTSensorDataProcessor.Core\obj\Debug\net9.0\ref\IoTSensorDataProcessor.Core.dll

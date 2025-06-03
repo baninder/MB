@@ -1,0 +1,170 @@
+2025-06-02 15:01:41.680 -07:00 [INF] Starting IoT Sensor Data Processor Worker
+2025-06-02 15:01:41.706 -07:00 [FTL] Worker terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'IoTSensorDataProcessor.Core.Interfaces.ISensorDataRepository' while attempting to activate 'IoTSensorDataProcessor.Core.Services.SensorDataProcessor'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in F:\MB\IoTSensorDataProcessor.Worker\Program.cs:line 39
+2025-06-02 15:02:19.114 -07:00 [INF] Starting IoT Sensor Data Processor Worker
+2025-06-02 15:02:19.139 -07:00 [FTL] Worker terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Azure.Cosmos.CosmosClient' while attempting to activate 'IoTSensorDataProcessor.Infrastructure.Repositories.CosmosDbSensorDataRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in F:\MB\IoTSensorDataProcessor.Worker\Program.cs:line 41
+2025-06-02 15:04:12.370 -07:00 [INF] Starting IoT Sensor Data Processor Worker
+2025-06-02 15:04:12.395 -07:00 [FTL] Worker terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'IoTSensorDataProcessor.Core.Interfaces.ISensorDataPublisher' while attempting to activate 'IoTSensorDataProcessor.Core.Services.SensorDataProcessor'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in F:\MB\IoTSensorDataProcessor.Worker\Program.cs:line 51
+2025-06-02 15:05:31.038 -07:00 [INF] Starting IoT Sensor Data Processor Worker
+2025-06-02 15:05:32.225 -07:00 [INF] Sensor Data Generator Service started
+2025-06-02 15:05:32.228 -07:00 [INF] Starting data generation for device TEMP_001
+2025-06-02 15:05:32.231 -07:00 [INF] Starting data generation for device TEMP_002
+2025-06-02 15:05:32.231 -07:00 [INF] Starting data generation for device HUM_001
+2025-06-02 15:05:32.232 -07:00 [INF] Starting data generation for device HUM_002
+2025-06-02 15:05:32.232 -07:00 [INF] Starting data generation for device PRES_001
+2025-06-02 15:05:32.232 -07:00 [INF] Starting data generation for device PRES_002
+2025-06-02 15:05:32.233 -07:00 [INF] Starting data generation for device VIB_001
+2025-06-02 15:05:32.233 -07:00 [INF] Starting data generation for device VIB_002
+2025-06-02 15:05:32.235 -07:00 [INF] Sensor Data Processing Service started
+2025-06-02 15:05:32.237 -07:00 [INF] MQTT Service started
+2025-06-02 15:05:32.238 -07:00 [INF] Starting sensor data processing loop
+2025-06-02 15:05:32.296 -07:00 [INF] Starting anomaly processing loop
+2025-06-02 15:05:32.298 -07:00 [INF] Starting channel health monitoring
+2025-06-02 15:05:32.299 -07:00 [INF] System Health Monitor Service started
+2025-06-02 15:05:32.299 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 15:05:32.300 -07:00 [INF] Hosting environment: Production
+2025-06-02 15:05:32.300 -07:00 [INF] Content root path: F:\MB\IoTSensorDataProcessor.Worker
+2025-06-02 15:06:32.298 -07:00 [INF] Channel Health Check - SensorData Queue: 66, Anomaly Queue: 0
+2025-06-02 15:07:32.308 -07:00 [INF] Channel Health Check - SensorData Queue: 125, Anomaly Queue: 0
+2025-06-02 15:08:32.315 -07:00 [INF] Channel Health Check - SensorData Queue: 185, Anomaly Queue: 0
+2025-06-02 15:09:32.319 -07:00 [INF] Channel Health Check - SensorData Queue: 242, Anomaly Queue: 0
+2025-06-02 15:10:32.327 -07:00 [INF] Channel Health Check - SensorData Queue: 301, Anomaly Queue: 0
+2025-06-02 15:10:33.343 -07:00 [INF] System Health Metrics - WorkingSetMB: 95.11, PrivateMemoryMB: 37.53, CPUUsagePercent: 3.36, AvailableMemoryMB: 45632, ThreadCount: 27, HandleCount: 662, Gen0Collections: 2, Gen1Collections: 2, Gen2Collections: 2, TotalMemoryMB: 13.69
+2025-06-02 15:11:32.342 -07:00 [INF] Channel Health Check - SensorData Queue: 362, Anomaly Queue: 0
+2025-06-02 15:12:32.346 -07:00 [INF] Channel Health Check - SensorData Queue: 420, Anomaly Queue: 0
+2025-06-02 15:13:32.362 -07:00 [INF] Channel Health Check - SensorData Queue: 478, Anomaly Queue: 0
+2025-06-02 15:14:32.374 -07:00 [INF] Channel Health Check - SensorData Queue: 540, Anomaly Queue: 0
+2025-06-02 15:15:32.388 -07:00 [INF] Channel Health Check - SensorData Queue: 598, Anomaly Queue: 0
+2025-06-02 15:15:34.367 -07:00 [INF] System Health Metrics - WorkingSetMB: 102.04, PrivateMemoryMB: 43.32, CPUUsagePercent: 1.23, AvailableMemoryMB: 45487, ThreadCount: 27, HandleCount: 751, Gen0Collections: 2, Gen1Collections: 2, Gen2Collections: 2, TotalMemoryMB: 19.18
+2025-06-02 15:16:32.390 -07:00 [INF] Channel Health Check - SensorData Queue: 659, Anomaly Queue: 0
+2025-06-02 15:17:32.400 -07:00 [INF] Channel Health Check - SensorData Queue: 718, Anomaly Queue: 0
+2025-06-02 15:18:32.408 -07:00 [INF] Channel Health Check - SensorData Queue: 777, Anomaly Queue: 0
+2025-06-02 15:19:32.422 -07:00 [INF] Channel Health Check - SensorData Queue: 840, Anomaly Queue: 0
+2025-06-02 15:20:32.437 -07:00 [INF] Channel Health Check - SensorData Queue: 900, Anomaly Queue: 0
+2025-06-02 15:20:35.397 -07:00 [INF] System Health Metrics - WorkingSetMB: 108.7, PrivateMemoryMB: 50.28, CPUUsagePercent: 1.91, AvailableMemoryMB: 45465, ThreadCount: 28, HandleCount: 750, Gen0Collections: 3, Gen1Collections: 3, Gen2Collections: 2, TotalMemoryMB: 11.04
+2025-06-02 15:21:32.448 -07:00 [INF] Channel Health Check - SensorData Queue: 955, Anomaly Queue: 0
+2025-06-02 15:22:32.454 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:23:32.465 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:24:32.473 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:25:32.479 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:25:36.415 -07:00 [INF] System Health Metrics - WorkingSetMB: 108.54, PrivateMemoryMB: 50.04, CPUUsagePercent: 2.49, AvailableMemoryMB: 45490, ThreadCount: 27, HandleCount: 753, Gen0Collections: 3, Gen1Collections: 3, Gen2Collections: 2, TotalMemoryMB: 16.37
+2025-06-02 15:26:32.484 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:27:32.494 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:28:32.502 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:29:32.509 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:30:32.522 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:30:37.436 -07:00 [INF] System Health Metrics - WorkingSetMB: 108.1, PrivateMemoryMB: 48.65, CPUUsagePercent: 2.73, AvailableMemoryMB: 45007, ThreadCount: 26, HandleCount: 753, Gen0Collections: 3, Gen1Collections: 3, Gen2Collections: 2, TotalMemoryMB: 21.42
+2025-06-02 15:31:32.530 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:32:32.538 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:33:32.544 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:34:32.548 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:35:32.563 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:35:38.456 -07:00 [INF] System Health Metrics - WorkingSetMB: 108.15, PrivateMemoryMB: 48.65, CPUUsagePercent: 2.25, AvailableMemoryMB: 45075, ThreadCount: 26, HandleCount: 744, Gen0Collections: 4, Gen1Collections: 3, Gen2Collections: 2, TotalMemoryMB: 11.21
+2025-06-02 15:36:32.567 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:37:32.572 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:38:32.580 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:39:32.594 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:40:32.600 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:40:39.475 -07:00 [INF] System Health Metrics - WorkingSetMB: 108.2, PrivateMemoryMB: 48.65, CPUUsagePercent: 6.33, AvailableMemoryMB: 44995, ThreadCount: 26, HandleCount: 746, Gen0Collections: 4, Gen1Collections: 3, Gen2Collections: 2, TotalMemoryMB: 16.43
+2025-06-02 15:41:32.605 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:42:32.606 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:43:32.617 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:44:32.624 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:45:32.628 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:45:40.497 -07:00 [INF] System Health Metrics - WorkingSetMB: 108.04, PrivateMemoryMB: 48.32, CPUUsagePercent: 4.99, AvailableMemoryMB: 44200, ThreadCount: 26, HandleCount: 750, Gen0Collections: 4, Gen1Collections: 3, Gen2Collections: 2, TotalMemoryMB: 21.65
+2025-06-02 15:46:32.644 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:47:32.657 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:48:32.662 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:49:32.672 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:50:32.677 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:50:41.526 -07:00 [INF] System Health Metrics - WorkingSetMB: 102.47, PrivateMemoryMB: 43.12, CPUUsagePercent: 1.48, AvailableMemoryMB: 44410, ThreadCount: 25, HandleCount: 735, Gen0Collections: 6, Gen1Collections: 4, Gen2Collections: 3, TotalMemoryMB: 6.23
+2025-06-02 15:51:32.678 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:52:32.691 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:53:32.696 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:54:32.708 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:55:32.711 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:55:42.539 -07:00 [INF] System Health Metrics - WorkingSetMB: 102.31, PrivateMemoryMB: 42.59, CPUUsagePercent: 0.79, AvailableMemoryMB: 44750, ThreadCount: 26, HandleCount: 741, Gen0Collections: 6, Gen1Collections: 4, Gen2Collections: 3, TotalMemoryMB: 11.43
+2025-06-02 15:56:32.719 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:57:32.731 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:58:32.743 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 15:59:32.757 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 16:00:32.759 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 16:00:43.560 -07:00 [INF] System Health Metrics - WorkingSetMB: 102.46, PrivateMemoryMB: 42.69, CPUUsagePercent: 2.38, AvailableMemoryMB: 45105, ThreadCount: 25, HandleCount: 738, Gen0Collections: 6, Gen1Collections: 4, Gen2Collections: 3, TotalMemoryMB: 16.59
+2025-06-02 16:01:32.762 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 16:02:32.767 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 16:03:32.768 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-02 16:04:32.774 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0

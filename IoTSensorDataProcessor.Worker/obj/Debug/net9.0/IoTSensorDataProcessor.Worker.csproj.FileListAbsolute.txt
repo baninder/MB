@@ -1,0 +1,5 @@
+F:\MB\IoTSensorDataProcessor.Worker\obj\Debug\net9.0\IoTSensorDataProcessor.Worker.csproj.AssemblyReference.cache
+F:\MB\IoTSensorDataProcessor.Worker\obj\Debug\net9.0\IoTSensorDataProcessor.Worker.GeneratedMSBuildEditorConfig.editorconfig
+F:\MB\IoTSensorDataProcessor.Worker\obj\Debug\net9.0\IoTSensorDataProcessor.Worker.AssemblyInfoInputs.cache
+F:\MB\IoTSensorDataProcessor.Worker\obj\Debug\net9.0\IoTSensorDataProcessor.Worker.AssemblyInfo.cs
+F:\MB\IoTSensorDataProcessor.Worker\obj\Debug\net9.0\IoTSensorDataProcessor.Worker.csproj.CoreCompileInputs.cache

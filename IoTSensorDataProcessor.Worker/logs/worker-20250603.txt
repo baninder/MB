@@ -1,0 +1,76 @@
+2025-06-03 12:38:51.199 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:39:01.249 -07:00 [INF] System Health Metrics - WorkingSetMB: 105.65, PrivateMemoryMB: 46, CPUUsagePercent: 8.73, AvailableMemoryMB: 43150, ThreadCount: 28, HandleCount: 745, Gen0Collections: 7, Gen1Collections: 5, Gen2Collections: 3, TotalMemoryMB: 6.16
+2025-06-03 12:39:49.457 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:40:49.467 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:41:49.467 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:42:49.468 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:43:49.478 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:44:02.260 -07:00 [INF] System Health Metrics - WorkingSetMB: 105.44, PrivateMemoryMB: 45.73, CPUUsagePercent: 3.63, AvailableMemoryMB: 43883, ThreadCount: 26, HandleCount: 743, Gen0Collections: 7, Gen1Collections: 5, Gen2Collections: 3, TotalMemoryMB: 11.32
+2025-06-03 12:44:49.482 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:45:49.495 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:46:49.507 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:47:49.512 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:48:49.519 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:49:03.280 -07:00 [INF] System Health Metrics - WorkingSetMB: 104.61, PrivateMemoryMB: 44.9, CPUUsagePercent: 2.05, AvailableMemoryMB: 43890, ThreadCount: 28, HandleCount: 758, Gen0Collections: 7, Gen1Collections: 5, Gen2Collections: 3, TotalMemoryMB: 16.44
+2025-06-03 12:49:49.520 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:50:49.527 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:51:49.531 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:52:49.539 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:53:49.548 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:54:04.311 -07:00 [INF] System Health Metrics - WorkingSetMB: 104.08, PrivateMemoryMB: 44.79, CPUUsagePercent: 5.48, AvailableMemoryMB: 43199, ThreadCount: 26, HandleCount: 746, Gen0Collections: 8, Gen1Collections: 5, Gen2Collections: 3, TotalMemoryMB: 6.25
+2025-06-03 12:54:49.558 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:55:49.566 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:56:49.575 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:57:49.587 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:58:49.590 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 12:59:05.333 -07:00 [INF] System Health Metrics - WorkingSetMB: 104.14, PrivateMemoryMB: 44.25, CPUUsagePercent: 0.84, AvailableMemoryMB: 43674, ThreadCount: 27, HandleCount: 755, Gen0Collections: 8, Gen1Collections: 5, Gen2Collections: 3, TotalMemoryMB: 11.54
+2025-06-03 12:59:49.600 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 13:00:49.601 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 13:01:49.615 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 13:02:49.621 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 13:03:49.623 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 13:19:08.042 -07:00 [INF] System Health Metrics - WorkingSetMB: 104.53, PrivateMemoryMB: 45.07, CPUUsagePercent: 8.86, AvailableMemoryMB: 42493, ThreadCount: 28, HandleCount: 769, Gen0Collections: 8, Gen1Collections: 5, Gen2Collections: 3, TotalMemoryMB: 16.8
+2025-06-03 14:15:26.832 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:16:26.835 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:17:26.847 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:18:26.861 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:19:26.873 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:19:44.594 -07:00 [INF] System Health Metrics - WorkingSetMB: 104.42, PrivateMemoryMB: 44.55, CPUUsagePercent: 2.59, AvailableMemoryMB: 41523, ThreadCount: 26, HandleCount: 758, Gen0Collections: 9, Gen1Collections: 5, Gen2Collections: 3, TotalMemoryMB: 6.64
+2025-06-03 14:20:26.881 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:21:26.896 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:22:26.898 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:23:26.913 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:24:26.924 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:24:45.628 -07:00 [INF] System Health Metrics - WorkingSetMB: 104.84, PrivateMemoryMB: 44.89, CPUUsagePercent: 1.7, AvailableMemoryMB: 40356, ThreadCount: 25, HandleCount: 763, Gen0Collections: 9, Gen1Collections: 5, Gen2Collections: 3, TotalMemoryMB: 11.73
+2025-06-03 14:25:26.924 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:26:26.928 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:27:26.934 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:28:26.944 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:29:26.954 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:29:46.644 -07:00 [INF] System Health Metrics - WorkingSetMB: 105.26, PrivateMemoryMB: 45.29, CPUUsagePercent: 2.73, AvailableMemoryMB: 39994, ThreadCount: 26, HandleCount: 767, Gen0Collections: 9, Gen1Collections: 5, Gen2Collections: 3, TotalMemoryMB: 16.96
+2025-06-03 14:30:26.966 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:31:26.974 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:32:26.989 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:33:26.993 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:34:27.008 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:34:47.669 -07:00 [INF] System Health Metrics - WorkingSetMB: 104.98, PrivateMemoryMB: 46.13, CPUUsagePercent: 10.42, AvailableMemoryMB: 39630, ThreadCount: 27, HandleCount: 749, Gen0Collections: 10, Gen1Collections: 6, Gen2Collections: 4, TotalMemoryMB: 5.07
+2025-06-03 14:35:27.013 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:36:27.021 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:37:27.029 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:38:27.035 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:39:27.040 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:39:48.682 -07:00 [INF] System Health Metrics - WorkingSetMB: 105.28, PrivateMemoryMB: 45.35, CPUUsagePercent: 3.51, AvailableMemoryMB: 39189, ThreadCount: 26, HandleCount: 749, Gen0Collections: 10, Gen1Collections: 6, Gen2Collections: 4, TotalMemoryMB: 10.26
+2025-06-03 14:40:27.051 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:41:27.055 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:42:27.058 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:43:27.071 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:44:27.076 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:44:49.705 -07:00 [INF] System Health Metrics - WorkingSetMB: 105.33, PrivateMemoryMB: 45.39, CPUUsagePercent: 4.42, AvailableMemoryMB: 39171, ThreadCount: 27, HandleCount: 758, Gen0Collections: 10, Gen1Collections: 6, Gen2Collections: 4, TotalMemoryMB: 15.56
+2025-06-03 14:45:27.078 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:46:27.094 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:47:27.104 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:48:27.115 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:49:27.120 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:49:50.731 -07:00 [INF] System Health Metrics - WorkingSetMB: 105.38, PrivateMemoryMB: 45.34, CPUUsagePercent: 11.34, AvailableMemoryMB: 39039, ThreadCount: 26, HandleCount: 749, Gen0Collections: 11, Gen1Collections: 6, Gen2Collections: 4, TotalMemoryMB: 5.19
+2025-06-03 14:50:27.135 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
+2025-06-03 14:51:27.136 -07:00 [INF] Channel Health Check - SensorData Queue: 1000, Anomaly Queue: 0
