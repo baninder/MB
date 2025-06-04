@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IoTSensorDataProcessor.Worker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d3e0db2a04c1ebc9394cb52ddfd4f7cc1ef47db")]
 [assembly: System.Reflection.AssemblyProductAttribute("IoTSensorDataProcessor.Worker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IoTSensorDataProcessor.Worker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

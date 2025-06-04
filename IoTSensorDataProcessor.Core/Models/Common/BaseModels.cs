@@ -29,7 +29,7 @@ public abstract class BaseEntity<TKey> : IEquatable<BaseEntity<TKey>>
 
     public override int GetHashCode()
     {
-        return EqualityComparer<TKey>.Default.GetHashCode(Id);
+        return Id?.GetHashCode() ?? 0;
     }
 
     public static bool operator ==(BaseEntity<TKey>? left, BaseEntity<TKey>? right)
